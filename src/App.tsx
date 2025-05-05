@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <BrowserRouter>
-      <div className="flex flex-col min-h-screen overflow-y-hidden bg-[#14181d] text-white">
+      <div className="flex flex-col min-h-screen overflow-y-hidden bg-[#1E1E1E] text-white">
         {" "}
         {/* Used to wrap entire webpage */}
         <Navbar />

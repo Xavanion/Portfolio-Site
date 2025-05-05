@@ -5,3 +5,18 @@
 @theme {
   --font-fira: "Fira Code", monospace;
 }
+
+@layer base {
+  button {
+    cursor: pointer;
+  }
+}
+
+@layer components {
+  .nav-item {
+    font-family: "Fira Code", monospace;
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: #b5b0b0;
+  }
+}
