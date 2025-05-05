@@ -10,6 +10,11 @@
   button {
     cursor: pointer;
   }
+  h1 {
+    font-family: "Fira Code", monospace;
+    font-size: x-large;
+    line-height: 1.5rem;
+  }
 }
 
 @layer components {
