@@ -12,7 +12,7 @@
   }
   h1 {
     font-family: "Fira Code", monospace;
-    font-size: x-large;
+    font-size: 48px;
     line-height: 1.5rem;
   }
 }
@@ -20,7 +20,7 @@
 @layer components {
   .nav-item {
     font-family: "Fira Code", monospace;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5rem;
     color: #b5b0b0;
   }
