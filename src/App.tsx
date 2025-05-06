@@ -4,11 +4,12 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import Navbar from "./components/Navbar";
+import FooterNav from "./components/FooterNav";
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="flex flex-col min-h-screen overflow-y-hidden bg-[#1E1E1E] text-white">
+      <div className="flex flex-col min-h-screen bg-[#1E1E1E] text-white">
         {" "}
         {/* Used to wrap entire webpage */}
         <Navbar />
@@ -21,6 +22,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/resume" element={<Resume />} />
           </Routes>
+          <FooterNav />
         </div>
       </div>
     </BrowserRouter>

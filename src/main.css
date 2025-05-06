@@ -8,6 +8,10 @@
 }
 
 @layer base {
+  html,
+  body {
+    background-color: #1e1e1e;
+  }
   button {
     cursor: pointer;
   }
