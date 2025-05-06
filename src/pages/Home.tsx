@@ -16,7 +16,7 @@ function Home() {
             to="https://github.com/Xavanion"
             target="_blank"
             rel="noopener noreferrer"
-            className="cursor-pointer transition-transform hover:scale-110 focus:scale-110"
+            className="cursor-pointer transition-transform hover:scale-110"
           >
             <img
               src={git_logo}
@@ -28,7 +28,7 @@ function Home() {
             to="https://linkedin.com/in/barrett-brown-8a990016b"
             target="_blank"
             rel="noopener noreferrer"
-            className="cursor-pointer transition-transform hover:scale-110 focus:scale-110"
+            className="cursor-pointer transition-transform hover:scale-110"
           >
             <img
               src={linkedin_logo}
