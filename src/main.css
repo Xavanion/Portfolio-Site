@@ -20,6 +20,11 @@
     font-size: 36px;
     line-height: 3rem;
   }
+  h3 {
+    font-family: "Fira Code", monospace;
+    font-size: 25px;
+    line-height: 3rem;
+  }
 }
 
 @layer components {
