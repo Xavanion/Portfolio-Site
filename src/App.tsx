@@ -13,7 +13,7 @@ function App() {
         {" "}
         {/* Used to wrap entire webpage */}
         <Navbar />
-        <div className="flex flex-col flex-1 pt-[70px] sm:pt-[60px] overflow-hidden mx-5 sm:mx-50 md:mx-75 lg:100">
+        <div className="flex flex-col flex-1 pt-[70px] sm:pt-[60px] overflow-hidden mx-5 sm:mx-[50px] md:mx-[75px] lg:mx-[100px] xl:mx-[300px]">
           {" "}
           {/* Used to wrap non-navbar content to allow easily swapping main content of page*/}
           <Routes>

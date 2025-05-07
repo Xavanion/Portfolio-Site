@@ -12,6 +12,9 @@
   body {
     background-color: #1e1e1e;
   }
+  html {
+    font-size: clamp(100%, 1.2vw + 0.5rem, 115%);
+  }
   button {
     cursor: pointer;
   }
@@ -38,6 +41,16 @@
     font-size: 20px;
     line-height: 1.5rem;
     color: #b5b0b0;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 }
 

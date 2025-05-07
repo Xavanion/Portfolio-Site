@@ -1,12 +1,13 @@
 import git_logo from "../assets/git_logo.png";
 import linkedin_logo from "../assets/linkedin_logo.png";
 import { Link } from "react-router-dom";
+import RailTimeline from "../components/RoadmapTimeline";
 
 function Home() {
   return (
-    <div className="flex flex-col flex-1">
+    <div className="flex flex-col flex-1 mx-auto">
       {/* Content block */}
-      <div className="mt-30 flex flex-row">
+      <div className="mt-30 flex flex-col md:flex-row">
         {/* Hero Section */}
         <div className="flex flex-col">
           <h1>&lt;Barrett Brown / &gt;</h1>
@@ -40,6 +41,11 @@ function Home() {
               />
             </Link>
           </div>
+        </div>
+
+        {/* Timeline */}
+        <div>
+          <RailTimeline />
         </div>
       </div>
     </div>
