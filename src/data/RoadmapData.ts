@@ -19,7 +19,7 @@ const rawRoadmap = [
     status: "NA",
   },
   {
-    title: "E2E, Unit Testing and properly integrating CI pipeline",
+    title: "E2E, Unit Testing and properly integrating CI/CD pipeline",
     date: "2025-06-02",
     desc: "Ensure that every push done throughout the coding process passes a quality check",
     status: "NA",
@@ -57,7 +57,7 @@ const rawRoadmap = [
   {
     title: "Final touchups",
     date: "2025-08-01",
-    desc: "make sure it works on mobile/desktop/laptop at throttled speeds",
+    desc: "Make sure it works on mobile/desktop/laptop at throttled speeds and update the CI/CD pipeline to meet metric/fuzzy test requirements",
     status: "NA",
   },
   {

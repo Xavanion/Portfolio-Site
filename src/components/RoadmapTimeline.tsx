@@ -56,7 +56,8 @@ export default function RailTimeline() {
   const startDrag = (pointer: { clientY: number }) => {
     const ul = listRef.current;
     if (!ul) return;
-    document.body.style.userSelect = "none";
+    ul.style.userSelect = "none";
+
     dragInfo.current = { startY: pointer.clientY, startTop: ul.scrollTop };
     const move = (ev: MouseEvent | TouchEvent) => {
       const y =
@@ -66,6 +67,7 @@ export default function RailTimeline() {
     };
     const stop = () => {
       dragInfo.current = null;
+      ul.style.userSelect = "";
       window.removeEventListener("mousemove", move);
       window.removeEventListener("touchmove", move as any);
       window.removeEventListener("mouseup", stop);

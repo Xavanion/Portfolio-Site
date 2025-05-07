@@ -62,7 +62,7 @@ export const projects: ProjectInfo[] = [
     description:
       "Web application that allows users to obtain weather information for any location and receive pizza recommendations tailored to the local area. ",
     roadmap: [
-      "Done for now! Was used as a HackKU project to explore dealinng with web design + APIs",
+      "Done for now! Made as a Hackathon project to explore dealing with web design + APIs",
     ],
     tech_stack: ["Flask", "HTML", "CSS", "API Handling"],
   },

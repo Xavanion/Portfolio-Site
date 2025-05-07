@@ -29,7 +29,7 @@ export default function Resume() {
         <object
           data={pdfFile}
           type="application/pdf"
-          className="h-[120vh] w-full"
+          className="h-[120vh] max-h-300 w-full"
           aria-label="Resume PDF Display"
         >
           {/* fallback text */}
