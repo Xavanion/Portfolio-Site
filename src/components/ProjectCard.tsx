@@ -9,9 +9,6 @@ export default function ProjectCard({ p }: { p: ProjectInfo }) {
     <section className="mx-auto mb-30 max-w-5xl">
       {/* HERO ROW */}
       <div className="flex flex-col items-start gap-8 md:flex-row md:items-center">
-        {/* (Optional) project hero image / screenshot */}
-        {/* <img src={hero} alt={`${p.title} screenshot`} className="w-full max-w-md rounded-lg shadow-lg" /> */}
-
         {/* Textual hero */}
         <div className="flex-1">
           <h2 className="text-4xl font-extrabold tracking-normal">{p.title}</h2>

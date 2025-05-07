@@ -7,6 +7,13 @@
   --font-fira: "Fira Code", monospace;
 }
 
+@font-face {
+  font-family: "Fira Code";
+  src: url("/fonts/FiraCode-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
 @layer base {
   html,
   body {

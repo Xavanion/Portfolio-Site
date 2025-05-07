@@ -17,4 +17,9 @@ export default defineConfig({
     port: 6060,
     allowedHosts: ["mainfunc.dev"],
   },
+  preview: {
+    host: "0.0.0.0",
+    port: 6060,
+    allowedHosts: ["mainfunc.dev"],
+  },
 });

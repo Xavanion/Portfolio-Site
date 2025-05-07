@@ -10,7 +10,6 @@ function Projects() {
         <span className="font-semibold text-white">"Netcode"</span>&nbsp;- a
         collaborative code editor and runner
       </div>
-      {/* TODO: Add a mapped area here that shows projects off */}
       <div className="gap-10">
         {projects.map((project) => (
           <ProjectCard key={project.title} p={project} />

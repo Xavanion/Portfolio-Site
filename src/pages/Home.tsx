@@ -1,7 +1,7 @@
-import git_logo from "../assets/git_logo.png";
-import linkedin_logo from "../assets/linkedin_logo.png";
+import git_logo from "@/assets/git_logo.png";
+import linkedin_logo from "@/assets/linkedin_logo.png";
 import { Link } from "react-router-dom";
-import RailTimeline from "../components/RoadmapTimeline";
+import RailTimeline from "@/components/RoadmapTimeline";
 
 function Home() {
   return (
