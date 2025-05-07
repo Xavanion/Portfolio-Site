@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import git_logo from "@/assets/git_logo.png";
 import linkedin_logo from "@/assets/linkedin_logo.png";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import avatar from "@/assets/avatar_placeholder.png"; // replace with your photo
+import avatar from "@/assets/avatar_placeholder.png";
 
 export default function About() {
   return (
