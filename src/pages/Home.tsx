@@ -11,7 +11,7 @@ function Home() {
         {/* Hero Section */}
         <div className="flex flex-col">
           <h1>&lt;Barrett Brown / &gt;</h1>
-          <p className="ml-10 mt-5 font-fira font-[20px] max-w-150">
+          <p className="ml-10 mt-5 font-fira text-[20px] max-w-150">
             Backend-focused developer building scalable systems and writing
             about the problems I create and solve along the way
           </p>

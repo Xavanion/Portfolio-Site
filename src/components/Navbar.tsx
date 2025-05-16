@@ -14,10 +14,13 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="sticky top-0 z-40 w-full bg-[#1E1E1E]">
+    <nav className="sticky top-0 z-40 w-full">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3 md:py-4">
         {/* Left: logo or name */}
-        <Link to="/" className="text-xl font-bold">
+        <Link
+          to="/"
+          className="text-xl font-bold tracking-wide hover:text-purple-400 transition-colors"
+        >
           &lt;BB /&gt;
         </Link>
 
@@ -37,7 +40,11 @@ export default function Navbar() {
               <NavLink
                 to={item.to}
                 className={({ isActive }) =>
-                  `nav-item ${isActive ? " underline text-white" : ""}`
+                  `nav-item relative px-1 transition-colors duration-200 ${
+                    isActive
+                      ? "text-white after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-white"
+                      : "text-zinc-300 hover:text-purple-400 after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:scale-x-0 after:bg-purple-400 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
+                  }`
                 }
               >
                 {item.label}
