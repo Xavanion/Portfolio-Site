@@ -106,22 +106,28 @@ export default function RailTimeline() {
 
   return (
     <div className="relative flex max-h-[45vh] space-y-12 ml-5 mt-15 sm:mt-0">
-      {/* rail */}
+      {/* TimeLine Rail */}
       <div
         ref={railRef}
         onClick={jump}
-        className="relative mr-6 w-[5px] cursor-pointer rounded bg-white/20"
+        className="relative mr-6 cursor-pointer"
       >
-        {/* dot */}
-        <button
-          onMouseDown={startDotDrag}
-          onTouchStart={startDotDrag}
-          className="absolute left-1/2 -translate-x-1/2 rounded-full
-               bg-indigo-500 transition-transform duration-300
-               h-5 w-5 cursor-pointer"
-          style={{ top: `calc(${scrollRatio * 100}% - 0.625rem)` }}
-          aria-label="scroll roadmap"
-        />
+        {/* Invisible clickable area */}
+        <div className="absolute inset-y-0 left-1/2 w-[30px] -translate-x-1/2" />
+
+        {/* Visible thin rail */}
+        <div className="relative mx-auto w-[5px] h-full rounded bg-white/20">
+          {/* Scroll dot */}
+          <button
+            onMouseDown={startDotDrag}
+            onTouchStart={startDotDrag}
+            className="absolute left-1/2 -translate-x-1/2 rounded-full
+             bg-indigo-500 transition-transform duration-300
+             h-5 w-5 cursor-pointer"
+            style={{ top: `calc(${scrollRatio * 100}% - 0.625rem)` }}
+            aria-label="scroll roadmap"
+          />
+        </div>
       </div>
 
       {/* scrollable list */}

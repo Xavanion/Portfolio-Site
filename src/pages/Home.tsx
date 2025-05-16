@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className="flex flex-col flex-1 mx-auto">
       {/* Content block */}
-      <div className="mt-30 flex flex-col md:flex-row">
+      <div className="mt-[clamp(2rem,5vh,3rem)] flex flex-col md:flex-row">
         {/* Hero Section */}
         <div className="flex flex-col">
           <h1>&lt;Barrett Brown / &gt;</h1>
